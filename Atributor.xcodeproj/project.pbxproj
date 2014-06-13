@@ -21,6 +21,8 @@
 		3458BDDA194708AB006BBFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDBC194708AB006BBFE7 /* UIKit.framework */; };
 		3458BDE2194708AB006BBFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3458BDE0194708AB006BBFE7 /* InfoPlist.strings */; };
 		3458BDE4194708AB006BBFE7 /* AtributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458BDE3194708AB006BBFE7 /* AtributorTests.m */; };
+		34C47BD2194AAA02006F10E3 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BD1194AAA02006F10E3 /* CustomView.m */; };
+		34CE8AC21949CA5200B2FC88 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CE8AC11949CA5200B2FC88 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3458BDDF194708AB006BBFE7 /* AtributorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtributorTests-Info.plist"; sourceTree = "<group>"; };
 		3458BDE1194708AB006BBFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3458BDE3194708AB006BBFE7 /* AtributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtributorTests.m; sourceTree = "<group>"; };
+		34C47BD0194AAA02006F10E3 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		34C47BD1194AAA02006F10E3 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		34CE8AC01949CA5200B2FC88 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		34CE8AC11949CA5200B2FC88 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				3458BDC7194708AB006BBFE7 /* AtributorAppDelegate.h */,
 				3458BDC8194708AB006BBFE7 /* AtributorAppDelegate.m */,
 				3458BDCA194708AB006BBFE7 /* Main.storyboard */,
+				34C47BD0194AAA02006F10E3 /* CustomView.h */,
+				34C47BD1194AAA02006F10E3 /* CustomView.m */,
+				34CE8AC01949CA5200B2FC88 /* TextStatsViewController.h */,
+				34CE8AC11949CA5200B2FC88 /* TextStatsViewController.m */,
 				3458BDCD194708AB006BBFE7 /* AtributorViewController.h */,
 				3458BDCE194708AB006BBFE7 /* AtributorViewController.m */,
 				3458BDD0194708AB006BBFE7 /* Images.xcassets */,
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C47BD2194AAA02006F10E3 /* CustomView.m in Sources */,
 				3458BDC5194708AB006BBFE7 /* main.m in Sources */,
 				3458BDCF194708AB006BBFE7 /* AtributorViewController.m in Sources */,
 				3458BDC9194708AB006BBFE7 /* AtributorAppDelegate.m in Sources */,
+				34CE8AC21949CA5200B2FC88 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +469,7 @@
 				3458BDE9194708AB006BBFE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3458BDEA194708AB006BBFE7 /* Build configuration list for PBXNativeTarget "AtributorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				3458BDEC194708AB006BBFE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
