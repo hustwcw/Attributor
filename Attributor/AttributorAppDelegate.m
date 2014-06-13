@@ -1,14 +1,14 @@
 //
-//  AtributorAppDelegate.m
-//  Atributor
+//  AttributorAppDelegate.m
+//  Attributor
 //
 //  Created by Chengwen Wang on 6/10/14.
 //  Copyright (c) 2014 Microstrategy. All rights reserved.
 //
 
-#import "AtributorAppDelegate.h"
+#import "AttributorAppDelegate.h"
 
-@implementation AtributorAppDelegate
+@implementation AttributorAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

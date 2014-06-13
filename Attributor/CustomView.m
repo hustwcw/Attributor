@@ -1,6 +1,6 @@
 //
 //  CustomView.m
-//  Atributor
+//  Attributor
 //
 //  Created by Chengwen Wang on 6/13/14.
 //  Copyright (c) 2014 Microstrategy. All rights reserved.

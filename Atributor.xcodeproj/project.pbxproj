@@ -10,19 +10,20 @@
 		3458BDB9194708AB006BBFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDB8194708AB006BBFE7 /* Foundation.framework */; };
 		3458BDBB194708AB006BBFE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDBA194708AB006BBFE7 /* CoreGraphics.framework */; };
 		3458BDBD194708AB006BBFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDBC194708AB006BBFE7 /* UIKit.framework */; };
-		3458BDC3194708AB006BBFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3458BDC1194708AB006BBFE7 /* InfoPlist.strings */; };
-		3458BDC5194708AB006BBFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458BDC4194708AB006BBFE7 /* main.m */; };
-		3458BDC9194708AB006BBFE7 /* AtributorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458BDC8194708AB006BBFE7 /* AtributorAppDelegate.m */; };
-		3458BDCC194708AB006BBFE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3458BDCA194708AB006BBFE7 /* Main.storyboard */; };
-		3458BDCF194708AB006BBFE7 /* AtributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458BDCE194708AB006BBFE7 /* AtributorViewController.m */; };
-		3458BDD1194708AB006BBFE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3458BDD0194708AB006BBFE7 /* Images.xcassets */; };
 		3458BDD8194708AB006BBFE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDD7194708AB006BBFE7 /* XCTest.framework */; };
 		3458BDD9194708AB006BBFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDB8194708AB006BBFE7 /* Foundation.framework */; };
 		3458BDDA194708AB006BBFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458BDBC194708AB006BBFE7 /* UIKit.framework */; };
 		3458BDE2194708AB006BBFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3458BDE0194708AB006BBFE7 /* InfoPlist.strings */; };
-		3458BDE4194708AB006BBFE7 /* AtributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458BDE3194708AB006BBFE7 /* AtributorTests.m */; };
-		34C47BD2194AAA02006F10E3 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BD1194AAA02006F10E3 /* CustomView.m */; };
-		34CE8AC21949CA5200B2FC88 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CE8AC11949CA5200B2FC88 /* TextStatsViewController.m */; };
+		3458BDE4194708AB006BBFE7 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458BDE3194708AB006BBFE7 /* AttributorTests.m */; };
+		34C47BD6194B071A006F10E3 /* Attributor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34C47BD3194B071A006F10E3 /* Attributor-Info.plist */; };
+		34C47BD7194B071A006F10E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BD5194B071A006F10E3 /* main.m */; };
+		34C47BDA194B072E006F10E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34C47BD8194B072E006F10E3 /* InfoPlist.strings */; };
+		34C47BDD194B0759006F10E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C47BDB194B0759006F10E3 /* Main.storyboard */; };
+		34C47BE7194B0776006F10E3 /* AttributorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BDF194B0776006F10E3 /* AttributorAppDelegate.m */; };
+		34C47BE8194B0776006F10E3 /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BE1194B0776006F10E3 /* AttributorViewController.m */; };
+		34C47BE9194B0776006F10E3 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BE3194B0776006F10E3 /* CustomView.m */; };
+		34C47BEA194B0776006F10E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C47BE4194B0776006F10E3 /* Images.xcassets */; };
+		34C47BEB194B0776006F10E3 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C47BE6194B0776006F10E3 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,25 +41,25 @@
 		3458BDB8194708AB006BBFE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3458BDBA194708AB006BBFE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3458BDBC194708AB006BBFE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3458BDC0194708AB006BBFE7 /* Atributor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Atributor-Info.plist"; sourceTree = "<group>"; };
-		3458BDC2194708AB006BBFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3458BDC4194708AB006BBFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3458BDC6194708AB006BBFE7 /* Atributor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Atributor-Prefix.pch"; sourceTree = "<group>"; };
-		3458BDC7194708AB006BBFE7 /* AtributorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtributorAppDelegate.h; sourceTree = "<group>"; };
-		3458BDC8194708AB006BBFE7 /* AtributorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtributorAppDelegate.m; sourceTree = "<group>"; };
-		3458BDCB194708AB006BBFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3458BDCD194708AB006BBFE7 /* AtributorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtributorViewController.h; sourceTree = "<group>"; };
-		3458BDCE194708AB006BBFE7 /* AtributorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtributorViewController.m; sourceTree = "<group>"; };
-		3458BDD0194708AB006BBFE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3458BDD6194708AB006BBFE7 /* AtributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3458BDD7194708AB006BBFE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3458BDDF194708AB006BBFE7 /* AtributorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtributorTests-Info.plist"; sourceTree = "<group>"; };
+		3458BDDF194708AB006BBFE7 /* AttributorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AttributorTests-Info.plist"; sourceTree = "<group>"; };
 		3458BDE1194708AB006BBFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3458BDE3194708AB006BBFE7 /* AtributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtributorTests.m; sourceTree = "<group>"; };
-		34C47BD0194AAA02006F10E3 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
-		34C47BD1194AAA02006F10E3 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
-		34CE8AC01949CA5200B2FC88 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
-		34CE8AC11949CA5200B2FC88 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
+		3458BDE3194708AB006BBFE7 /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		34C47BD3194B071A006F10E3 /* Attributor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Attributor-Info.plist"; path = "Attributor/Attributor-Info.plist"; sourceTree = SOURCE_ROOT; };
+		34C47BD4194B071A006F10E3 /* Attributor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Attributor-Prefix.pch"; path = "Attributor/Attributor-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		34C47BD5194B071A006F10E3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Attributor/main.m; sourceTree = SOURCE_ROOT; };
+		34C47BD9194B072E006F10E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Attributor/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		34C47BDC194B0759006F10E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Attributor/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		34C47BDE194B0776006F10E3 /* AttributorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttributorAppDelegate.h; path = Attributor/AttributorAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		34C47BDF194B0776006F10E3 /* AttributorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttributorAppDelegate.m; path = Attributor/AttributorAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		34C47BE0194B0776006F10E3 /* AttributorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttributorViewController.h; path = Attributor/AttributorViewController.h; sourceTree = SOURCE_ROOT; };
+		34C47BE1194B0776006F10E3 /* AttributorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttributorViewController.m; path = Attributor/AttributorViewController.m; sourceTree = SOURCE_ROOT; };
+		34C47BE2194B0776006F10E3 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomView.h; path = Attributor/CustomView.h; sourceTree = SOURCE_ROOT; };
+		34C47BE3194B0776006F10E3 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = Attributor/CustomView.m; sourceTree = SOURCE_ROOT; };
+		34C47BE4194B0776006F10E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Attributor/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		34C47BE5194B0776006F10E3 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextStatsViewController.h; path = Attributor/TextStatsViewController.h; sourceTree = SOURCE_ROOT; };
+		34C47BE6194B0776006F10E3 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextStatsViewController.m; path = Attributor/TextStatsViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +89,8 @@
 		3458BDAC194708AB006BBFE7 = {
 			isa = PBXGroup;
 			children = (
-				3458BDBE194708AB006BBFE7 /* Atributor */,
-				3458BDDD194708AB006BBFE7 /* AtributorTests */,
+				3458BDBE194708AB006BBFE7 /* Attributor */,
+				3458BDDD194708AB006BBFE7 /* AttributorTests */,
 				3458BDB7194708AB006BBFE7 /* Frameworks */,
 				3458BDB6194708AB006BBFE7 /* Products */,
 			);
@@ -115,48 +116,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3458BDBE194708AB006BBFE7 /* Atributor */ = {
+		3458BDBE194708AB006BBFE7 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				3458BDC7194708AB006BBFE7 /* AtributorAppDelegate.h */,
-				3458BDC8194708AB006BBFE7 /* AtributorAppDelegate.m */,
-				3458BDCA194708AB006BBFE7 /* Main.storyboard */,
-				34C47BD0194AAA02006F10E3 /* CustomView.h */,
-				34C47BD1194AAA02006F10E3 /* CustomView.m */,
-				34CE8AC01949CA5200B2FC88 /* TextStatsViewController.h */,
-				34CE8AC11949CA5200B2FC88 /* TextStatsViewController.m */,
-				3458BDCD194708AB006BBFE7 /* AtributorViewController.h */,
-				3458BDCE194708AB006BBFE7 /* AtributorViewController.m */,
-				3458BDD0194708AB006BBFE7 /* Images.xcassets */,
+				34C47BDE194B0776006F10E3 /* AttributorAppDelegate.h */,
+				34C47BDF194B0776006F10E3 /* AttributorAppDelegate.m */,
+				34C47BE0194B0776006F10E3 /* AttributorViewController.h */,
+				34C47BE1194B0776006F10E3 /* AttributorViewController.m */,
+				34C47BE2194B0776006F10E3 /* CustomView.h */,
+				34C47BE3194B0776006F10E3 /* CustomView.m */,
+				34C47BE4194B0776006F10E3 /* Images.xcassets */,
+				34C47BE5194B0776006F10E3 /* TextStatsViewController.h */,
+				34C47BE6194B0776006F10E3 /* TextStatsViewController.m */,
+				34C47BDB194B0759006F10E3 /* Main.storyboard */,
 				3458BDBF194708AB006BBFE7 /* Supporting Files */,
 			);
+			name = Attributor;
 			path = Atributor;
 			sourceTree = "<group>";
 		};
 		3458BDBF194708AB006BBFE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3458BDC0194708AB006BBFE7 /* Atributor-Info.plist */,
-				3458BDC1194708AB006BBFE7 /* InfoPlist.strings */,
-				3458BDC4194708AB006BBFE7 /* main.m */,
-				3458BDC6194708AB006BBFE7 /* Atributor-Prefix.pch */,
+				34C47BD8194B072E006F10E3 /* InfoPlist.strings */,
+				34C47BD3194B071A006F10E3 /* Attributor-Info.plist */,
+				34C47BD4194B071A006F10E3 /* Attributor-Prefix.pch */,
+				34C47BD5194B071A006F10E3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3458BDDD194708AB006BBFE7 /* AtributorTests */ = {
+		3458BDDD194708AB006BBFE7 /* AttributorTests */ = {
 			isa = PBXGroup;
 			children = (
-				3458BDE3194708AB006BBFE7 /* AtributorTests.m */,
+				3458BDE3194708AB006BBFE7 /* AttributorTests.m */,
 				3458BDDE194708AB006BBFE7 /* Supporting Files */,
 			);
+			name = AttributorTests;
 			path = AtributorTests;
 			sourceTree = "<group>";
 		};
 		3458BDDE194708AB006BBFE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3458BDDF194708AB006BBFE7 /* AtributorTests-Info.plist */,
+				3458BDDF194708AB006BBFE7 /* AttributorTests-Info.plist */,
 				3458BDE0194708AB006BBFE7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -239,9 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3458BDD1194708AB006BBFE7 /* Images.xcassets in Resources */,
-				3458BDC3194708AB006BBFE7 /* InfoPlist.strings in Resources */,
-				3458BDCC194708AB006BBFE7 /* Main.storyboard in Resources */,
+				34C47BD6194B071A006F10E3 /* Attributor-Info.plist in Resources */,
+				34C47BEA194B0776006F10E3 /* Images.xcassets in Resources */,
+				34C47BDA194B072E006F10E3 /* InfoPlist.strings in Resources */,
+				34C47BDD194B0759006F10E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C47BD2194AAA02006F10E3 /* CustomView.m in Sources */,
-				3458BDC5194708AB006BBFE7 /* main.m in Sources */,
-				3458BDCF194708AB006BBFE7 /* AtributorViewController.m in Sources */,
-				3458BDC9194708AB006BBFE7 /* AtributorAppDelegate.m in Sources */,
-				34CE8AC21949CA5200B2FC88 /* TextStatsViewController.m in Sources */,
+				34C47BEB194B0776006F10E3 /* TextStatsViewController.m in Sources */,
+				34C47BE7194B0776006F10E3 /* AttributorAppDelegate.m in Sources */,
+				34C47BE9194B0776006F10E3 /* CustomView.m in Sources */,
+				34C47BE8194B0776006F10E3 /* AttributorViewController.m in Sources */,
+				34C47BD7194B071A006F10E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3458BDE4194708AB006BBFE7 /* AtributorTests.m in Sources */,
+				3458BDE4194708AB006BBFE7 /* AttributorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,28 +291,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3458BDC1194708AB006BBFE7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3458BDC2194708AB006BBFE7 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3458BDCA194708AB006BBFE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3458BDCB194708AB006BBFE7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3458BDE0194708AB006BBFE7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3458BDE1194708AB006BBFE7 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34C47BD8194B072E006F10E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C47BD9194B072E006F10E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34C47BDB194B0759006F10E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C47BDC194B0759006F10E3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,8 +394,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Atributor/Atributor-Prefix.pch";
-				INFOPLIST_FILE = "Atributor/Atributor-Info.plist";
+				GCC_PREFIX_HEADER = "Attributor/Attributor-Prefix.pch";
+				INFOPLIST_FILE = "Attributor/Attributor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,8 +407,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Atributor/Atributor-Prefix.pch";
-				INFOPLIST_FILE = "Atributor/Atributor-Info.plist";
+				GCC_PREFIX_HEADER = "Attributor/Attributor-Prefix.pch";
+				INFOPLIST_FILE = "Attributor/Attributor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,14 +417,14 @@
 		3458BDEB194708AB006BBFE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Atributor.app/Atributor";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Attributor.app/Attributor";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Atributor/Atributor-Prefix.pch";
+				GCC_PREFIX_HEADER = "Attributor/Attributor-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -435,14 +439,14 @@
 		3458BDEC194708AB006BBFE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Atributor.app/Atributor";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Attributor.app/Attributor";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Atributor/Atributor-Prefix.pch";
+				GCC_PREFIX_HEADER = "Attributor/Attributor-Prefix.pch";
 				INFOPLIST_FILE = "AtributorTests/AtributorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

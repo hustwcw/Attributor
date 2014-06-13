@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Atributor
+//  Attributor
 //
 //  Created by Chengwen Wang on 6/10/14.
 //  Copyright (c) 2014 Microstrategy. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AtributorAppDelegate.h"
+#import "AttributorAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AtributorAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AttributorAppDelegate class]));
     }
 }

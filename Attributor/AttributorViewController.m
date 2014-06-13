@@ -1,22 +1,22 @@
 //
-//  AtributorViewController.m
-//  Atributor
+//  AttributorViewController.m
+//  Attributor
 //
 //  Created by Chengwen Wang on 6/10/14.
 //  Copyright (c) 2014 Microstrategy. All rights reserved.
 //
 
-#import "AtributorViewController.h"
+#import "AttributorViewController.h"
 #import "TextStatsViewController.h"
 
 
-@interface AtributorViewController ()
+@interface AttributorViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *body;
 @property (weak, nonatomic) IBOutlet UIButton *outlineButton;
 
 @end
 
-@implementation AtributorViewController
+@implementation AttributorViewController
 
 - (IBAction)changeTextColor:(UIButton *)sender {
     [self.body.textStorage addAttribute:NSForegroundColorAttributeName value:sender.backgroundColor range:self.body.selectedRange];
